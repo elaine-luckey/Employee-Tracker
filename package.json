@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.6.1"
+  },
+  "name": "employee-tracker",
+  "description": "UNC Chapel Hill Challenge 12",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elaine-luckey/Employee-Tracker.git"
+  },
+  "author": "Elaine Luckey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elaine-luckey/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/elaine-luckey/Employee-Tracker#readme"
+}
