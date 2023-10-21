@@ -54,7 +54,7 @@ const viewEmpl = async () => {
   console.table(rows);
 };
 
-// "Add a department"
+// Add a Department
 const addDept = async () => {
   try {
     const dept = await inquirer.prompt({
@@ -81,7 +81,7 @@ const addDept = async () => {
   }
 };
 
-// "Add a role"
+// Add a Role
 const addRole = async () => {
   try {
     const [departments] = await pool.query(`SELECT * FROM department;`);
@@ -131,7 +131,7 @@ const addRole = async () => {
   }
 };
 
-// "Add an Employee"
+//Add an Employee
 const addEmpl = async () => {
   try {
     const [roles] = await pool.query(`SELECT * FROM role;`);
@@ -198,7 +198,7 @@ const addEmpl = async () => {
   }
 };
 
-// "Remove a department"
+// Remove a Department
 const removeDept = async () => {
   try {
     const [departments] = await pool.query(`SELECT * FROM department;`);
@@ -231,7 +231,7 @@ const removeDept = async () => {
   }
 };
 
-// "Remove a role"
+// Remove a Role
 const removeRole = async () => {
   try {
     const [roles] = await pool.query(`SELECT * FROM role;`);
@@ -269,7 +269,7 @@ const removeRole = async () => {
   }
 };
 
-// "Remove an employee"
+// Remove an Employee
 const removeEmpl = async () => {
   try {
     const [employees] = await pool.query(`SELECT * FROM employee;`);
@@ -339,7 +339,7 @@ const removeEmpl = async () => {
   }
 };
 
-// "Update an employee role"
+// Update an Employee Role
 const updateRole = async () => {
   try {
     const [employeeNames] = await pool.query(`SELECT * FROM employee;`);
@@ -391,7 +391,7 @@ const updateRole = async () => {
   }
 };
 
-// "Update employee manager"
+// Update Employee Managers
 const updateManager = async () => {
   try {
     const [employees] = await pool.query(`SELECT * FROM employee;`);
@@ -446,7 +446,7 @@ const updateManager = async () => {
   }
 };
 
-// "View employees by manager"
+// View Employee By Manager
 const viewByManager = async () => {
   try {
     const [result] = await pool.query(`
@@ -468,7 +468,7 @@ const viewByManager = async () => {
   }
 };
 
-// "View employees by department"
+// View Employee By Department
 const viewByDept = async () => {
   try {
     const [result] = await pool.query(`
@@ -495,7 +495,7 @@ const viewByDept = async () => {
   }
 }
 
-// "View total utilized budget of department"
+// View Total Utilized Budget of Department
 const viewBudget = async () => {
   const query = `
     SELECT d.name AS department_name, COALESCE(SUM(r.salary), 0) AS total_salary
