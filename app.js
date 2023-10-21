@@ -28,17 +28,17 @@ const promptInquirer = async () => {
         "View All Departments",
         "View All Roles",
         "View All Employees",
-        "Add a department",
-        "Add a role",
-        "Add an employee",
-        "Remove a department",                          //**Extra credit
-        "Remove a role",                                //**Extra credit
-        "Remove an employee",                           //**Extra credit
-        "Update an employee role",
-        "Update employee managers",                     //**Extra credit
-        "View employees by manager",                    //**Extra credit
-        "View employees by department",                 //**Extra credit
-        "View total utilized budget of department",     //**Extra credit
+        "Add a Department",
+        "Add a Role",
+        "Add an Employee",
+        "Remove a Department",                          //**Extra credit
+        "Remove a Role",                                //**Extra credit
+        "Remove an Employee",                           //**Extra credit
+        "Update an Employee Role",
+        "Update Employee Managers",                     //**Extra credit
+        "View Employees By Manager",                    //**Extra credit
+        "View Employees By Department",                 //**Extra credit
+        "View Total Utilized Budget of the Department",     //**Extra credit
         "Quit",
         
       ],
