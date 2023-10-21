@@ -46,6 +46,8 @@ THEN I am prompted to select an employee to update and their new role and this i
 - View the total utilized budget of a department—in other words, the combined salaries of all employees in that department.
 
 ## Output
+<img width="897" alt="image" src="https://github.com/elaine-luckey/Employee-Tracker/assets/134161776/3d3e149c-8e03-4377-b438-c5071559691d">
+
 
 ## Credits:
 Classmates at the UNC Coding Bootcamp
@@ -53,3 +55,6 @@ ChatGPT
 
 ## License: 
 Please refer to the LICENSE in the repo
+
+## How to Contribute:
+Clone the repo, request permission to contribute to project, and code away!
