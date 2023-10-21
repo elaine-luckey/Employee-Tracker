@@ -48,6 +48,8 @@ THEN I am prompted to select an employee to update and their new role and this i
 ## Output
 <img width="897" alt="image" src="https://github.com/elaine-luckey/Employee-Tracker/assets/134161776/3d3e149c-8e03-4377-b438-c5071559691d">
 
+<img width="902" alt="image" src="https://github.com/elaine-luckey/Employee-Tracker/assets/134161776/49bbc290-ada9-4686-8a71-89c5f232fb73">
+
 
 ## Credits:
 Classmates at the UNC Coding Bootcamp
